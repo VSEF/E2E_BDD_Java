@@ -5,7 +5,7 @@ Feature: Home Page is available
   Scenario: User can navigate to the Home Page
     Then User should be on the Home Page with title - "Risk Management Solutions - RMS"
 
-  Scenario Outline: Tabs are available
+  Scenario Outline: Tabs by clicking are available
     When Click on the on "<name>" tab
     Then The "<name2>" window should be open
     Examples:
@@ -13,6 +13,10 @@ Feature: Home Page is available
       | Ecosystem    | Ecosystem    |
       | How We Serve | How We Serve |
 
-  Scenario: Tab "Product & Services" is available
-    When User move cursor on the "Products & Services" tab
-    Then User should see "SOFTWARE" sub_tab
+  Scenario Outline: Tabs by moving cursor are available
+    When User move cursor on the "<name>" tab
+    Then User should see "<name2>" sub_tab
+    Examples:
+      | name                 | name2    |
+      | Products & Services  | SOFTWARE |
+      | Resources & Insights | NEWSROOM |
