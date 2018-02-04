@@ -1,17 +1,14 @@
 package tests;
 
 import DriverInstance.DriverInstance;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.interactions.Actions;
-
-
-import java.util.*;
+import java.io.*;
 import java.util.concurrent.TimeUnit;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.WebDriverException;
 
 public class HomePage_Steps {
     WebDriver driver;
@@ -21,6 +18,7 @@ public class HomePage_Steps {
     public void user_enters_app_Address() throws Throwable {
         dInstance = new DriverInstance();
         driver = dInstance.generateDriverInstance();
+        driver.manage().window().maximize();
         driver.navigate().to("https://www.rms.com/how-we-serve");
         driver.navigate().back();
         driver.navigate().refresh();
@@ -31,6 +29,7 @@ public class HomePage_Steps {
         //driver = new ChromeDriver();
         dInstance = new DriverInstance();
         driver = dInstance.generateDriverInstance();
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get(arg1);
         Thread.sleep(3000);
@@ -47,6 +46,9 @@ public class HomePage_Steps {
     public void userMoveCursorOnTheTab(String arg0) throws Throwable {
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(By.linkText(arg0))).perform();
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File("C:/Users/User/Desktop/ud282-master/ud282-master/Java_Cucumber/screenshot.jpg"));
+        Thread.sleep(3000);
     }
 
 // Then steps
@@ -61,7 +63,6 @@ public class HomePage_Steps {
     public void userShouldBeOnTheHomePageWithTitle(String arg1) throws Throwable {
         Assert.assertTrue(driver.getTitle().equals(arg1));
         System.out.println(driver.getTitle());
-        //driver.quit();
         dInstance.closeDriverInstance(driver);
     }
 
@@ -71,7 +72,6 @@ public class HomePage_Steps {
     public void theWindowShouldBeOpen(String arg0) throws Throwable {
         Assert.assertTrue(driver.getTitle().contains(arg0));
         System.out.println(driver.getTitle());
-        //driver.quit();
         dInstance.closeDriverInstance(driver);
     }
 

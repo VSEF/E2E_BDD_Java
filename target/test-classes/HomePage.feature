@@ -15,7 +15,7 @@ Feature: Home Page is available
 
   Scenario Outline: Tabs by moving cursor are available
     When User move cursor on the "<name>" tab
-    Then User should see "<name2>" sub_tab
+    Then User should see "<name2>" inner_tab
     Examples:
       | name                 | name2    |
       | Products & Services  | SOFTWARE |
