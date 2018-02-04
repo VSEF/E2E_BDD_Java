@@ -79,10 +79,17 @@ public class HomePage_Steps {
 
     @Then("^User should see \"([^\"]*)\" sub_tab$")
     public void userShouldSeeSubtab(String arg0) throws Throwable {
-        Assert.assertTrue(driver.getPageSource().contains("SOFTWARE"));
+        Assert.assertTrue(driver.getPageSource().contains(arg0));
         System.out.println("Element is presented");
         Thread.sleep(3000);
-        //driver.quit();
+        dInstance.closeDriverInstance(driver);
+    }
+
+    @Then("^User should see \"([^\"]*)\" inner_tab$")
+    public void userShouldSeeInner_tab(String arg1) throws Throwable {
+        Assert.assertTrue(driver.getPageSource().contains(arg1));
+        System.out.println("Element is presented");
+        Thread.sleep(3000);
         dInstance.closeDriverInstance(driver);
     }
 }
