@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91d8311-cf9b-493a-95db-140b79ce30b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RMS_Website.iml" afterPath="$PROJECT_DIR$/RMS_Website.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -710,7 +707,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517806621522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added plugins into pom file">
+      <created>1517808474303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1517808474303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -817,7 +821,8 @@
     <MESSAGE value="Renamed of elements file" />
     <MESSAGE value="Changed some implementations" />
     <MESSAGE value="Added new dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new dependency" />
+    <MESSAGE value="Added plugins into pom file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added plugins into pom file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
