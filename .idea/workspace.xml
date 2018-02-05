@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c91d8311-cf9b-493a-95db-140b79ce30b7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/running/RunCukesTests.java" afterPath="$PROJECT_DIR$/src/test/java/running/RunCukesTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,12 +75,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
               <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunCukesTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/running/RunCukesTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/test/java/DriverInstance.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RunCakesTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RunCukesTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/running/RunCukesTests.java" />
         <option value="$PROJECT_DIR$/src/resources/features/HomePage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Steps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/HP.feature" />
@@ -142,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/HomePage_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/HomePage.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/running/RunCukesTests.java" />
       </list>
     </option>
   </component>
@@ -227,6 +240,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DriverInstance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="running" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Cucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -714,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517808474303</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added plugins into pom file">
+      <created>1517808482428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517808482428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1079,13 +1107,6 @@
     <entry file="file://$PROJECT_DIR$/src/configuration.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/HP.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/HP_Steps.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/running/RunCukesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/elements.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1154,6 +1175,16 @@
         <state relative-caret-position="260">
           <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/running/RunCukesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
