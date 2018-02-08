@@ -1,4 +1,4 @@
-package DriverInstance;
+package driverInstance;
 import java.util.*;
 import java.io.*;
 import org.openqa.selenium.WebDriver;

@@ -1,6 +1,6 @@
 package tests;
 
-import DriverInstance.DriverInstance;
+import driverInstance.DriverInstance;
 import cucumber.api.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -13,7 +13,9 @@ import org.openqa.selenium.WebDriverException;
 public class HomePage_Steps {
     WebDriver driver;
     DriverInstance dInstance;
- // Given steps
+
+ // ############ Given steps ######################
+
     @Given("^User enters app Address$")
     public void user_enters_app_Address() throws Throwable {
         dInstance = new DriverInstance();
@@ -34,7 +36,8 @@ public class HomePage_Steps {
         driver.get(arg1);
         Thread.sleep(3000);
     }
- // When steps
+
+ // ############### When steps ########################
 
     @When("^Click on the on \"([^\"]*)\" tab$")
     public void clickOnTheOnTab(String arg0) throws Throwable {
@@ -51,7 +54,7 @@ public class HomePage_Steps {
         Thread.sleep(3000);
     }
 
-// Then steps
+// ################## Then steps ##########################
 
     @Then("^User should be logged$")
     public void user_should_be_logged() throws Throwable {
