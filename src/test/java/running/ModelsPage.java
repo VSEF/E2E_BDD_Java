@@ -1,4 +1,4 @@
-package test.java.running;
+package running;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
@@ -8,7 +8,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import test.java.driverInstance.DriverInstance;
+import driverInstance.DriverInstance;
 
 public class ModelsPage {
 

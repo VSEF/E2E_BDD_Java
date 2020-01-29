@@ -1,4 +1,4 @@
-package test.java.running;
+package running;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -11,7 +11,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import test.java.driverInstance.DriverInstance;
+import driverInstance.DriverInstance;
 
 import java.io.File;
 import java.util.ResourceBundle;
