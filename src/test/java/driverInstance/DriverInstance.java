@@ -5,10 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-
-/**
- * Created by User on 30.01.2018.
- */
 public class DriverInstance {
     public WebDriver generateDriverInstance() {
         WebDriver driver;
