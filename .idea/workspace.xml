@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c91d8311-cf9b-493a-95db-140b79ce30b7" name="Default" comment="Restructured files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:/Users/User/Desktop/ud282-master/ud282-master/Java_Cucumber/screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMS_Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RMS_Website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/running/HomePage_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/running/HomePage_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/driverInstance/DriverInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/running/RunCukesTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/steps/HomePage_Steps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/steps/ModelsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +87,7 @@
       <recent name="C:\Users\User\Desktop\ud282-master\ud282-master\RMS_Website\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.All Features in: features">
+  <component name="RunManager" selected="JUnit.RunCukesTests">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -146,6 +153,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/HomePage.feature" />
+      <option name="GLUE" value="running" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="RMS_Website" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: HomePage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: ModelsPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/ModelsPage.feature" />
@@ -164,53 +189,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: All types of model presenting validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Home Page URL validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/ModelsPage.feature" />
-      <option name="GLUE" value="test.java.steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/HomePage.feature" />
+      <option name="GLUE" value="running" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RMS_Website" />
-      <option name="NAME_FILTER" value="^All types of model presenting validation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^All types of model presenting validation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: All types of model presenting validation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Models' Page Title validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/ModelsPage.feature" />
-      <option name="GLUE" value="test.java.steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="RMS_Website" />
-      <option name="NAME_FILTER" value="^Models\' Page Title validation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Models\' Page Title validation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Models' Page Title validation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Models' Page URL validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/ModelsPage.feature" />
-      <option name="GLUE" value="test.java.steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="RMS_Website" />
-      <option name="NAME_FILTER" value="^Models\' Page URL validation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Models\' Page URL validation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Models' Page URL validation" />
+      <option name="NAME_FILTER" value="^Home Page URL validation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Home Page URL validation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Home Page URL validation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -231,6 +218,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCukesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RMS_Website" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="running.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="running" />
+      <option name="MAIN_CLASS_NAME" value="running.RunCukesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -297,18 +300,18 @@
     <list>
       <item itemvalue="Cucumber java.Scenario: User on HP" />
       <item itemvalue="Cucumber java.Feature: ModelsPage" />
-      <item itemvalue="Cucumber java.Scenario: Models' Page Title validation" />
       <item itemvalue="Cucumber java.All Features in: features" />
-      <item itemvalue="Cucumber java.Scenario: All types of model presenting validation" />
-      <item itemvalue="Cucumber java.Scenario: Models' Page URL validation" />
+      <item itemvalue="Cucumber java.Feature: HomePage" />
+      <item itemvalue="Cucumber java.Scenario: Home Page URL validation" />
+      <item itemvalue="JUnit.RunCukesTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCukesTests" />
         <item itemvalue="Cucumber java.All Features in: features" />
+        <item itemvalue="Cucumber java.Scenario: Home Page URL validation" />
+        <item itemvalue="Cucumber java.Feature: HomePage" />
         <item itemvalue="Cucumber java.Feature: ModelsPage" />
-        <item itemvalue="Cucumber java.Scenario: All types of model presenting validation" />
-        <item itemvalue="Cucumber java.Scenario: Models' Page URL validation" />
-        <item itemvalue="Cucumber java.Scenario: Models' Page Title validation" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +499,35 @@
       <option name="project" value="LOCAL" />
       <updated>1580314127517</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Restructured files">
+      <created>1580314388401</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1580314388401</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Restructured files">
+      <created>1580314416937</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1580314416937</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Restructured files">
+      <created>1580314440705</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1580314440705</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Restructured files">
+      <created>1580314546874</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1580314546874</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,64 +572,64 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="1033" y="421" width="471" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1026@0.23.1792.1026" timestamp="1580298671147" />
-    <state x="320" y="113" key="CommitChangelistDialog2" timestamp="1580314440591">
+    <state x="320" y="113" key="CommitChangelistDialog2" timestamp="1580314546789">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="320" y="113" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314440591" />
+    <state x="320" y="113" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314546789" />
     <state x="440" y="126" key="CommitChangelistDialog2/0.23.1792.1020@0.23.1792.1020" timestamp="1580103075524" />
     <state x="341" y="126" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1580314388265" />
     <state x="744" y="436" key="Github.ShareDialog" timestamp="1580103006783">
       <screen x="0" y="23" width="1792" height="1020" />
     </state>
     <state x="744" y="436" key="Github.ShareDialog/0.23.1792.1020@0.23.1792.1020" timestamp="1580103006783" />
-    <state width="1792" height="312" key="GridCell.Tab.0.bottom" timestamp="1580104505585">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1792" height="356" key="GridCell.Tab.0.bottom" timestamp="1580315837374">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="351" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1579857965282" />
+    <state width="1792" height="356" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1580315837374" />
     <state width="1750" height="306" key="GridCell.Tab.0.bottom/0.23.1792.1019@0.23.1792.1019" timestamp="1579873472879" />
     <state width="1358" height="263" key="GridCell.Tab.0.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1579084904097" />
     <state width="1750" height="306" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1579867706282" />
-    <state width="1792" height="312" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1580104505585" />
+    <state width="844" height="356" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1580315688368" />
     <state width="1750" height="306" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579871267325" />
     <state width="1750" height="306" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1579870527668" />
     <state width="1750" height="306" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1579867022975" />
-    <state width="1792" height="312" key="GridCell.Tab.0.center" timestamp="1580104505584">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1792" height="356" key="GridCell.Tab.0.center" timestamp="1580315837373">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="351" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1579857965280" />
+    <state width="1792" height="356" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1580315837373" />
     <state width="1750" height="306" key="GridCell.Tab.0.center/0.23.1792.1019@0.23.1792.1019" timestamp="1579873472878" />
     <state width="1358" height="263" key="GridCell.Tab.0.center/0.23.1792.1020@0.23.1792.1020" timestamp="1579084904097" />
     <state width="1750" height="306" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1579867706281" />
-    <state width="1792" height="312" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1580104505584" />
+    <state width="844" height="356" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1580315688368" />
     <state width="1750" height="306" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579871267324" />
     <state width="1750" height="306" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1579870527668" />
     <state width="1750" height="306" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1579867022974" />
-    <state width="1792" height="312" key="GridCell.Tab.0.left" timestamp="1580104505584">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1792" height="356" key="GridCell.Tab.0.left" timestamp="1580315837373">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="351" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1579857965279" />
+    <state width="1792" height="356" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1580315837373" />
     <state width="1750" height="306" key="GridCell.Tab.0.left/0.23.1792.1019@0.23.1792.1019" timestamp="1579873472878" />
     <state width="1358" height="263" key="GridCell.Tab.0.left/0.23.1792.1020@0.23.1792.1020" timestamp="1579084904097" />
     <state width="1750" height="306" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1579867706280" />
-    <state width="1792" height="312" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1580104505584" />
+    <state width="844" height="356" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1580315688368" />
     <state width="1750" height="306" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579871267324" />
     <state width="1750" height="306" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1579870527667" />
     <state width="1750" height="306" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1579867022973" />
-    <state width="1792" height="312" key="GridCell.Tab.0.right" timestamp="1580104505584">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1792" height="356" key="GridCell.Tab.0.right" timestamp="1580315837374">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="351" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1579857965281" />
+    <state width="1792" height="356" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1580315837374" />
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1019@0.23.1792.1019" timestamp="1579873472879" />
     <state width="1358" height="263" key="GridCell.Tab.0.right/0.23.1792.1020@0.23.1792.1020" timestamp="1579084904097" />
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1579867706282" />
-    <state width="1792" height="312" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1580104505584" />
+    <state width="844" height="356" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1580315688368" />
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579871267325" />
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1579870527668" />
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1579867022974" />
-    <state x="496" y="275" key="Vcs.Push.Dialog.v2" timestamp="1580314442428">
+    <state x="496" y="275" key="Vcs.Push.Dialog.v2" timestamp="1580314548857">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="275" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314442428" />
+    <state x="496" y="275" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314548857" />
     <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.23.1792.1020@0.23.1792.1020" timestamp="1580103089550" />
     <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1024@0.23.1792.1024" timestamp="1580314390494" />
     <state x="550" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1580314016926">
