@@ -60,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -540,11 +541,12 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="1033" y="421" width="471" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1026@0.23.1792.1026" timestamp="1580298671147" />
-    <state x="341" y="113" key="CommitChangelistDialog2" timestamp="1580314127391">
+    <state x="341" y="113" key="CommitChangelistDialog2" timestamp="1580314416821">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="341" y="113" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314127391" />
+    <state x="341" y="113" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314416821" />
     <state x="440" y="126" key="CommitChangelistDialog2/0.23.1792.1020@0.23.1792.1020" timestamp="1580103075524" />
+    <state x="341" y="126" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1580314388265" />
     <state x="744" y="436" key="Github.ShareDialog" timestamp="1580103006783">
       <screen x="0" y="23" width="1792" height="1020" />
     </state>
@@ -593,11 +595,12 @@
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579871267325" />
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1579870527668" />
     <state width="1750" height="306" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1579867022974" />
-    <state x="496" y="275" key="Vcs.Push.Dialog.v2" timestamp="1580314129797">
+    <state x="496" y="275" key="Vcs.Push.Dialog.v2" timestamp="1580314418625">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="275" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314129797" />
+    <state x="496" y="275" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1580314418625" />
     <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.23.1792.1020@0.23.1792.1020" timestamp="1580103089550" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1024@0.23.1792.1024" timestamp="1580314390494" />
     <state x="550" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1580314016926">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
