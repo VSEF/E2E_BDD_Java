@@ -1,4 +1,4 @@
-package test.java.running;
+package running;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
